@@ -14,12 +14,9 @@ namespace P3_prac1
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
-			
-			// TODO: Implement Functionality Here
-			
-			Console.Write("Press any key to continue . . . ");
-			Console.ReadKey(true);
-		}
+			Console.WriteLine("Dame el primer numero");
+			int numero1 = int.Parse(Console.ReadLine());
+			Console.WriteLine("Dame el segundo numero");
+			int numero2 = int.Parse(Console.ReadLine());		}
 	}
 }
